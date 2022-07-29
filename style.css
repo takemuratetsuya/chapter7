@@ -1,0 +1,44 @@
+:{
+  marazin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*解答では.main-visual*/
+header{
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-size: 100% 170%;/*解答ではいらない*/
+  background-position: bottom center;/*解答ではｃｅｎｔｅｒいらない*/
+}
+
+/*解答では.headlineでpadding20pxのみ*/
+.visual{
+  text-align: left;/*いらない*/
+  padding:20px 0 0 20px;/*20pxのみ*/
+  font-size: 25px;/*いらない*/
+  color: dimgray;/*いらない*/
+}
+
+/*解答では*/
+main{
+  width: 840px;
+  display: flex;/*いらない*/
+  justify-content:center;/*いらない*/
+  margin: 0 auto;/*50px auto*/
+  padding: 50px 0;/*いらない*/
+}
+
+/*すべてのbox-itemに適用される*/
+.box-item{
+  width: 840px;
+  padding: 30px 0;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+/*mainのあとは.service1~4を作る
+margin-bottom:30px;
+border-bottom:1px solid #d1d1d1;
+padding-bottom:30px;　この３つのみ*/
